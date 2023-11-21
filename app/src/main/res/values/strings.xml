@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">note</string>
+    <string name="app_main_name">+note</string>
+    <string name="battery_text">
+        Fast\&amp;easy notepad that allows you to make and organize your everyday notes,
+        including setting reminders and getting notifications.
+        \n In order to use all app\'s features you should grant some permissions:
+        \n 1. To ignore battery optimization.
+        \n 2. To use camera.
+        \n 3. To use microphone.
+        \n 4. To use internal storage.
+        \n Although you have a choice not to give those permissions,
+        you are strongly advised to grant them for proper functioning of this app.</string>
+</resources>

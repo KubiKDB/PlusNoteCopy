@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PlusNote" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/headColor</item>
+        <item name="colorPrimaryVariant">@color/headColor</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/light_blue_text</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/theme121212</item>
+        <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor" tools:targetApi="l">@color/theme121212</item>
+    </style>
+    <style name="timePicker">
+        <item name="android:textColorPrimary">@color/light_blue_text</item> <!-- color for digits -->
+        <item name="android:textColor">@color/light_blue_text</item> <!-- color for colon -->
+        <item name="android:colorControlNormal">@color/light_blue_text</item> <!-- color for (horizontal) delimeters -->
+        <item name="android:textSize">@dimen/time_picker</item>
+    </style>
+</resources>
